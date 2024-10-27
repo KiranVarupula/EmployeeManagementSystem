@@ -1,0 +1,299 @@
+/* Container Styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Table Styles */
+.table {
+    margin: 0 auto; /* Center the table horizontally */
+    width: 80vw; /* Adjust the width to fit within the viewport */
+    max-width: 90%; /* Prevent the table from exceeding the container's width */
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #f9f9f9; /* Light background for better contrast */
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #4a90e2; /* A calming blue for the header */
+    color: white;
+}
+
+.table tr:nth-child(even) {
+    background-color: #e3f2fd; /* Light blue for even rows */
+}
+
+/* Action Button Styles */
+.action-icons {
+    margin: 0 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.action-icons.view {
+    background-color: #4CAF50; /* Green for view */
+    color: white;
+}
+
+.action-icons.edit {
+    background-color: #ff9800; /* Orange for edit */
+    color: white;
+}
+
+.action-icons.delete {
+    background-color: #f44336; /* Red for delete */
+    color: white;
+}
+
+.action-icons:hover {
+    color: #fff; /* White text on hover */
+}
+
+.action-icons.view:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+.action-icons.edit:hover {
+    background-color: #e68a00; /* Darker orange */
+}
+
+.action-icons.delete:hover {
+    background-color: #d32f2f; /* Darker red */
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    .table {
+        width: 100%; /* Full width on smaller screens */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Container Styles
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Card Styles *
+.card-format-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: #121212;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    flex-basis: calc(25% - 20px); /* Adjust width to fit 4 items in one row *
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-body {
+    margin-top: 10px;
+}
+
+/* Table Styles *
+.table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #d3d3d3; /* Cement color for table background *
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #f9b234;
+    color: white;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Responsive Card Layout *
+@media only screen and (max-width: 768px) {
+    .card {
+        flex-basis: calc(50% - 20px); /* Show 2 items per row on smaller screens *
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .card {
+        flex-basis: 100%; /* Show 1 item per row on very small screens *
+    }
+}
+
+/* Action Button Styles *
+.action-icons {
+    margin: 0 5px;
+    cursor: pointer;
+    color: #dc1313;
+    transition: color 0.3s;
+}
+
+.action-icons:hover {
+    color: #000; /* Darker color on hover for better visibility *
+}
+
+.table {
+    margin: 0 auto; /* Center the table horizontally *
+    width: 80vw; /* Adjust the width to fit within the viewport *
+    max-width: 90%; /* Prevent the table from exceeding the container's width *
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #f9b234;
+    color: white;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+
+
+
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card-format-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: #121212;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    flex-basis: calc(25% - 20px); /* Adjust width to fit 4 items in one row 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-body {
+    margin-top: 10px;
+}
+
+.table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #f9b234;
+    color: white;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+@media only screen and (max-width: 768px) {
+    .card {
+        flex-basis: calc(50% - 20px); /* Show 2 items per row on smaller screens 
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .card {
+        flex-basis: 100%; /* Show 1 item per row on very small screens *
+    }
+} */

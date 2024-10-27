@@ -1,0 +1,223 @@
+/* Overall container styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial, sans-serif';
+    background: linear-gradient(to right, #e3eefe, #efddfb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    height: 100%;
+}
+
+/* Form container */
+form {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reduced the shadow intensity */
+    border-radius: 8px;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: none; /* Removed border to avoid any unwanted black outlines */
+}
+
+form:hover {
+    transform: translateY(-5px);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); Lightened the shadow for a smoother effect */
+}
+
+/* Form label styling */
+form label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Input fields */
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form input[type="number"],
+form input[type="file"],
+form input[type="url"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.2s ease;
+    box-shadow: none; /* Removed the default shadow for a cleaner look */
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="date"]:focus,
+form input[type="number"]:focus,
+form input[type="file"]:focus,
+form input[type="url"]:focus,
+form select:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+/* Submit button styling */
+form button[type="submit"] {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* UserForm.css
+
+/* Overall container styling 
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial, sans-serif';
+    background: linear-gradient(to right, #e3eefe, #efddfb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Form container 
+form {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+form:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Form label styling */
+form label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+    color: #333;
+}
+/* Input fields 
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form input[type="number"],
+form input[type="file"],
+form input[type="url"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.2s ease;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="date"]:focus,
+form input[type="number"]:focus,
+form input[type="file"]:focus,
+form input[type="url"]:focus,
+form select:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+/* Submit button styling 
+form button[type="submit"] {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+form button[type="submit"]:hover {
+    background-color: #0056b3;
+    transform: scale(1.02);
+}
+
+/* Error and success message styling 
+form p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+form p.error {
+    color: red;
+}
+
+form p.success {
+    color: green;
+}
+
+/* Image preview styling 
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Address checkbox styling 
+input[type="checkbox"] {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+/* Adjust form alignment and spacing 
+label span {
+    font-size: 14px;
+    color: #666;
+} */
